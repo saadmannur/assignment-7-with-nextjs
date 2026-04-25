@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "picture": "https://i.pravatar.cc/150?u=1",
+        "email": "john@example.com",
+        "days_since_contact": 12,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "Met in university. Love hiking together.",
+        "goal": 14,
+        "next_due_date": "2025-07-20"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Ahmed",
+        "picture": "https://i.pravatar.cc/150?u=2",
+        "email": "sarah.a@testmail.com",
+        "days_since_contact": 3,
+        "status": "active",
+        "tags": [
+            "office",
+            "mentor"
+        ],
+        "bio": "Senior developer at my first job. Guided me a lot.",
+        "goal": 7,
+        "next_due_date": "2025-07-25"
+    },
+    {
+        "id": 3,
+        "name": "Rahat Kabir",
+        "picture": "https://i.pravatar.cc/150?u=3",
+        "email": "rahat.k@gmail.com",
+        "days_since_contact": 25,
+        "status": "overdue",
+        "tags": [
+            "childhood",
+            "neighbor"
+        ],
+        "bio": "Grew up in the same street. Plays football.",
+        "goal": 21,
+        "next_due_date": "2025-07-15"
+    },
+    {
+        "id": 4,
+        "name": "Emily Watson",
+        "picture": "https://i.pravatar.cc/150?u=4",
+        "email": "emily.w@outlook.com",
+        "days_since_contact": 5,
+        "status": "active",
+        "tags": [
+            "gym",
+            "fitness"
+        ],
+        "bio": "Workout buddy. Very disciplined about health.",
+        "goal": 10,
+        "next_due_date": "2025-07-28"
+    },
+    {
+        "id": 5,
+        "name": "Tanvir Hasan",
+        "picture": "https://i.pravatar.cc/150?u=5",
+        "email": "tanvir.h@company.com",
+        "days_since_contact": 30,
+        "status": "archived",
+        "tags": [
+            "school",
+            "long distance"
+        ],
+        "bio": "School friend now living in Canada.",
+        "goal": 60,
+        "next_due_date": "2025-08-10"
+    },
+    {
+        "id": 6,
+        "name": "Ayesha Siddiqua",
+        "picture": "https://i.pravatar.cc/150?u=6",
+        "email": "ayesha.s@example.com",
+        "days_since_contact": 1,
+        "status": "active",
+        "tags": [
+            "college",
+            "best friend"
+        ],
+        "bio": "Always there when I need help. Loves photography.",
+        "goal": 3,
+        "next_due_date": "2025-07-24"
+    },
+    {
+        "id": 7,
+        "name": "Michael Chen",
+        "picture": "https://i.pravatar.cc/150?u=7",
+        "email": "m.chen@tech.com",
+        "days_since_contact": 45,
+        "status": "overdue",
+        "tags": [
+            "freelance",
+            "coding"
+        ],
+        "bio": "Met during a hackathon. Great JS developer.",
+        "goal": 30,
+        "next_due_date": "2025-07-01"
+    },
+    {
+        "id": 8,
+        "name": "Sultana Razia",
+        "picture": "https://i.pravatar.cc/150?u=8",
+        "email": "razia.s@webmail.com",
+        "days_since_contact": 8,
+        "status": "active",
+        "tags": [
+            "art",
+            "community"
+        ],
+        "bio": "Fellow artist. We share painting tips.",
+        "goal": 14,
+        "next_due_date": "2025-07-30"
+    },
+    {
+        "id": 9,
+        "name": "David Miller",
+        "picture": "https://i.pravatar.cc/150?u=9",
+        "email": "david.m@gaming.com",
+        "days_since_contact": 2,
+        "status": "active",
+        "tags": [
+            "gaming",
+            "discord"
+        ],
+        "bio": "Duo partner in Valorant. Fun to talk to.",
+        "goal": 7,
+        "next_due_date": "2025-07-24"
+    },
+    {
+        "id": 10,
+        "name": "Nabil Ahmed",
+        "picture": "https://i.pravatar.cc/150?u=10",
+        "email": "nabil.a@test.com",
+        "days_since_contact": 100,
+        "status": "inactive",
+        "tags": [
+            "travel",
+            "ex-colleague"
+        ],
+        "bio": "Travelled to Sylhet together. Lost touch recently.",
+        "goal": 90,
+        "next_due_date": "2025-06-15"
+    }
+]
