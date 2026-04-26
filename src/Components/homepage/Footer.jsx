@@ -3,7 +3,7 @@ import { FaFacebook, FaSquareInstagram, FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <div className='bg-green-900 p-10 text-white text-center mt-10'>
+        <div className='bg-green-900 p-10 text-white text-center '>
             <div className='space-y-4'>
                 <h2 className='text-5xl font-bold'>KeenKeeper</h2>
                 <p className='text-gray-400'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
