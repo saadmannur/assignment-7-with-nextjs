@@ -17,6 +17,7 @@ const FriendDetailsBtn = ({ detailsFriend }) => {
         const updatedFriend = {
             ...detailsFriend,
             isClick: "call",
+            action: `Call with ${detailsFriend.name}`,
             calledAt: new Date().toLocaleString()
         }
         setStoreFriend([...storeFriend, updatedFriend]);
@@ -30,6 +31,7 @@ const FriendDetailsBtn = ({ detailsFriend }) => {
         const updatedFriend = {
             ...detailsFriend,
             isClick: "text",
+            action: `Text with ${detailsFriend.name}`,
             calledAt: new Date().toLocaleString()
         }
         setStoreFriend([...storeFriend, updatedFriend]);
@@ -43,6 +45,7 @@ const FriendDetailsBtn = ({ detailsFriend }) => {
         const updatedFriend = {
             ...detailsFriend,
             isClick: "video",
+            action: `Video with ${detailsFriend.name}`,
             calledAt: new Date().toLocaleString()
         }
         setStoreFriend([...storeFriend, updatedFriend]);
@@ -50,7 +53,6 @@ const FriendDetailsBtn = ({ detailsFriend }) => {
             position: "top-center"
         })
     }
-    console.log(storeFriend)
 
     return (
         <div className='flex flex-col md:flex-row flex-wrap gap-2 justify-between items-center'>
