@@ -20,7 +20,7 @@
         "picture": "https://i.pravatar.cc/150?u=2",
         "email": "sarah.a@testmail.com",
         "days_since_contact": 3,
-        "status": "active",
+        "status": "on-track",
         "tags": [
             "office",
             "mentor"
@@ -50,7 +50,7 @@
         "picture": "https://i.pravatar.cc/150?u=4",
         "email": "emily.w@outlook.com",
         "days_since_contact": 5,
-        "status": "active",
+        "status": "on-track",
         "tags": [
             "gym",
             "fitness"
@@ -65,7 +65,7 @@
         "picture": "https://i.pravatar.cc/150?u=5",
         "email": "tanvir.h@company.com",
         "days_since_contact": 30,
-        "status": "archived",
+        "status": "almost due",
         "tags": [
             "school",
             "long distance"
@@ -80,7 +80,7 @@
         "picture": "https://i.pravatar.cc/150?u=6",
         "email": "ayesha.s@example.com",
         "days_since_contact": 1,
-        "status": "active",
+        "status": "on-track",
         "tags": [
             "college",
             "best friend"
@@ -110,7 +110,7 @@
         "picture": "https://i.pravatar.cc/150?u=8",
         "email": "razia.s@webmail.com",
         "days_since_contact": 8,
-        "status": "active",
+        "status": "on-track",
         "tags": [
             "art",
             "community"
@@ -125,7 +125,7 @@
         "picture": "https://i.pravatar.cc/150?u=9",
         "email": "david.m@gaming.com",
         "days_since_contact": 2,
-        "status": "active",
+        "status": "on-track",
         "tags": [
             "gaming",
             "discord"
@@ -140,7 +140,7 @@
         "picture": "https://i.pravatar.cc/150?u=10",
         "email": "nabil.a@test.com",
         "days_since_contact": 100,
-        "status": "inactive",
+        "status": "almost due",
         "tags": [
             "travel",
             "ex-colleague"

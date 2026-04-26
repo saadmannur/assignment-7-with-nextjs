@@ -1,7 +1,6 @@
 import React from 'react';
 
-const Friends =  ({ friendsPromise }) => {
-
+const Context = () => {
     return (
         <div>
             
@@ -9,4 +8,4 @@ const Friends =  ({ friendsPromise }) => {
     );
 };
 
-export default Friends;
+export default Context;
