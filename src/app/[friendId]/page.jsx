@@ -1,11 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
-import call from "@/assets/call.png"
-import text from "@/assets/text.png"
-import video from "@/assets/video.png"
 import { HiBellSnooze } from 'react-icons/hi2';
 import { FaBoxArchive } from 'react-icons/fa6';
 import { MdDeleteForever } from 'react-icons/md';
+import FriendDetailsBtn from '@/Components/FriendDetailsBtn/FriendDetailsBtn';
+
 
 export const metadata = {
     title: "Friend Details",
@@ -21,8 +19,9 @@ const FriendsDetailsPage = async ({ params }) => {
     const detailsFriend = friends.find(friend => friend.id === Number(friendId));
     // console.log(detailsFriend)
     const { name, picture, email, days_since_contact, status, tags, bio, goal, next_due_date } = detailsFriend;
+
     return (
-        <div className='grid grid-cols-5 grid-rows-7 py-10 px-20 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 grid-rows-7 py-2 px-2 lg:py-10 lg:px-20 gap-5'>
             <div className='flex flex-col justify-center items-center p-5 bg-white  rounded-2xl space-y-4 row-span-4 col-span-2'>
                 <div>
                     <Image
@@ -72,35 +71,7 @@ const FriendsDetailsPage = async ({ params }) => {
 
             <div className='bg-white rounded-2xl shadow p-6 space-y-5 col-span-3 row-span-3'>
                 <h2 className='text-xl'>Quick Check-In</h2>
-                <div className='flex justify-between items-center'>
-                    <button className='flex flex-col justify-center items-center gap-2 rounded-xl border border-gray-400 py-3 px-18 bg-base-300 btn-ghost'>
-                        <Image
-                            src={call}
-                            alt='call'
-                            width={30}
-                            height={30}
-                        ></Image>
-                        Call
-                    </button>
-                    <button className='flex flex-col justify-center items-center gap-2 rounded-xl border border-gray-400  py-3 px-18 bg-base-300 btn-ghost'>
-                        <Image
-                            src={text}
-                            alt='call'
-                            width={30}
-                            height={30}
-                        ></Image>
-                        Text
-                    </button>
-                    <button className='flex flex-col justify-center items-center gap-2 rounded-xl border border-gray-400  py-3 px-18 bg-base-300 btn-ghost'>
-                        <Image
-                            src={video}
-                            alt='call'
-                            width={30}
-                            height={30}
-                        ></Image>
-                        Video
-                    </button>
-                </div>
+                <FriendDetailsBtn detailsFriend={detailsFriend} ></FriendDetailsBtn>
             </div>
 
             <div className='row-span-1 col-span-2 bg-white rounded-xl flex justify-center items-center'>
