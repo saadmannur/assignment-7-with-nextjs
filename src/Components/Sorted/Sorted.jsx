@@ -36,11 +36,14 @@ const Sorted = () => {
                         </div>
                     </button>
                     <ul tabIndex="-1" className={`dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm ${open ? '' : "hidden"}`}>
+                        
                         <li onClick={() => { setSortingType("call"); setOpen(false) }}><a>Call</a></li>
 
                         <li onClick={() => { setSortingType("text"); setOpen(false) }}><a>Text</a></li>
 
                         <li onClick={() => { setSortingType("video"); setOpen(false) }}><a>Video</a></li>
+
+                        <li onClick={() => { setSortingType("all"); setOpen(false) }}><a>All</a></li>
                     </ul>
                 </div>
             </div>

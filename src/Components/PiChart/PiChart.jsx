@@ -37,7 +37,8 @@ const PiChart = () => {
                                         maxWidth: '500px',
                                         maxHeight: '80vh',
                                         aspectRatio: 1,
-                                        margin: "auto"
+                                        margin: "auto",
+                                        paddingBottom: "30px"
                                     }}
                                     responsive>
                                     <Pie
