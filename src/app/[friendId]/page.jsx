@@ -13,7 +13,7 @@ export const metadata = {
 const FriendsDetailsPage = async ({ params }) => {
     const { friendId } = await params;
     // console.log(friendId)
-    const res = await fetch("http://localhost:3000/friends.json");
+    const res = await fetch("https://a-7keen-keeper.vercel.app/friends.json");
     const friends = await res.json();
     // console.log(friends)
     const detailsFriend = friends.find(friend => friend.id === Number(friendId));

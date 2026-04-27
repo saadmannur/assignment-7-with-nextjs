@@ -18,7 +18,7 @@ const StoredFriends = ({ filteredData }) => {
                 :
                     <div className='space-y-5'>
                         {
-                            filteredData.map(friend => <RenderStoredFriends key={friend.id} friend={friend}></RenderStoredFriends>)
+                            filteredData.map(friend => <RenderStoredFriends key={friend.calledAt} friend={friend}></RenderStoredFriends>)
                         }
                     </div>
             }

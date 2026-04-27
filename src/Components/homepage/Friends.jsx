@@ -2,7 +2,12 @@ import React from 'react';
 import FriendCard from './FriendCard';
 
 const Friends = async() => {
-    const res = await fetch("http://localhost:3000/friends.json");
+    const res = await fetch("https://a-7keen-keeper.vercel.app/friends.json");
+    
+    //     , {
+    //     cache: "no-store"
+    // }
+
     const friends = await res.json();
     // console.log(friends)
     return (
