@@ -1,4 +1,5 @@
-import React from 'react';
+import PiChart from "@/Components/PiChart/PiChart";
+
 
 export const metadata = {
     title: "Stats | KeenKeeper",
@@ -6,10 +7,12 @@ export const metadata = {
 };
 
 const StatsPage = () => {
+    
     return (
-        <div>
+        <div className="m-15">
+            <h2 className="text-5xl font-bold mb-8">Friendship Analytics</h2>
 
-            <p>this is state page</p>
+            <PiChart></PiChart>
 
         </div>
     );

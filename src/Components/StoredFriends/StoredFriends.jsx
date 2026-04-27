@@ -3,21 +3,22 @@ import React, { useContext } from 'react';
 import { InstallAppContext } from '../context/InstallContext';
 import RenderStoredFriends from './RenderStoredFriends';
 
-const StoredFriends = () => {
+const StoredFriends = ({ filteredData }) => {
     const fromContext = useContext(InstallAppContext)
     const { storeFriend } = fromContext;
+    // console.log(filteredData)
     // console.log(storeFriend)
     return (
         <div>
             {
                 storeFriend.length == 0 ?
-                    <div>
-                        your time line is empty
+                    <div className='text-center p-30 border border-gray-300 bg-white text-3xl font-semibold rounded-2xl text-gray-500'>
+                        Your Timeline is Empty
                     </div>
                 :
                     <div className='space-y-5'>
                         {
-                            storeFriend.map(friend => <RenderStoredFriends key={friend.id} friend={friend}></RenderStoredFriends>)
+                            filteredData.map(friend => <RenderStoredFriends key={friend.id} friend={friend}></RenderStoredFriends>)
                         }
                     </div>
             }

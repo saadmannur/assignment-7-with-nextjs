@@ -1,4 +1,4 @@
-import StoredFriends from '@/Components/StoredFriends/StoredFriends';
+import Sorted from '@/Components/Sorted/Sorted';
 import React from 'react';
 
 export const metadata = {
@@ -10,8 +10,8 @@ const TimelinePage = () => {
     return (
         <div className="py-5 px-5 md:py-10 md:px-20">
 
-            <h2 className='text-5xl font-bold my-8'>Timeline</h2>
-            <StoredFriends></StoredFriends>
+            <h2 className='text-5xl font-bold my-8 text-green-900'>Timeline</h2>
+            <Sorted></Sorted>
 
         </div>
     );
